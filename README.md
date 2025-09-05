@@ -12,9 +12,11 @@ brew install asdf
 asdf plugin add golang https://github.com/asdf-community/asdf-golang.git
 asdf list all golang
 asdf install golang 1.25.1
-asdf global golang 1.25.1
+
 cd ~/go-concurrency-lab
 asdf set golang 1.25.1
 asdf current golang
+
 go version
+asdf which go
 ```
